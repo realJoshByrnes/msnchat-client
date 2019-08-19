@@ -5,33 +5,62 @@ html, body {
 }
 
 body {
-  background-color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFFFE8;
 }
 
 .msn-chat-history {
   position: absolute;
   margin: 10px;
-  border: 1px solid grey;
+  border: 1px solid #D7D7CF;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   background-color: white;
-  width: calc(100% - 20px - 200px);
+  width: calc(100% - 20px - 240px);
   height: calc(100% - 20px - 58px)
 }
 
 .msn-chat-input {
-  background-color: blue;
-  width: calc(100% - 200px);
+  background-color: #49659D;
+  width: calc(100% - 240px);
   position: absolute;
   bottom: 10px;
   height: 48px;
 }
 
-.msn-nicklist {
+/* This will be changed once buttons are in */
+.msn-input {
+  margin: 10px;
+  height: 20px;
+  width: calc(100% - 22px);
+}
+
+.msn-nicklist-container {
   float: right;
-  width: calc(200px);
+  width: 240px;
   height: 100%;
-  background-color: white;
+  background-color: #EFF0F7;
   position: absolute;
   top: 0px;
   bottom: 0px;
   right: 0px;
+}
+
+.msn-nicklist-title {
+  background-color: #49659D;
+  color: #FFFFE8;
+  height: 80px;
+  font-size: 200%;
+  padding: 10px;
+}
+
+.msn-nicklist {
+  margin-top: 40px;
+  border: 1px solid #D7D7CF;
+  height: calc(100% - 182px);
+  background-color: white;
+}
+
+.msn-text-connecting {
+  color: #038203;
 }
