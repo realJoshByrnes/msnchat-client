@@ -1,0 +1,37 @@
+/* Use the whole page */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: yellow;
+}
+
+.msn-chat-history {
+  position: absolute;
+  margin: 10px;
+  border: 1px solid grey;
+  background-color: white;
+  width: calc(100% - 20px - 200px);
+  height: calc(100% - 20px - 58px)
+}
+
+.msn-chat-input {
+  background-color: blue;
+  width: calc(100% - 200px);
+  position: absolute;
+  bottom: 10px;
+  height: 48px;
+}
+
+.msn-nicklist {
+  float: right;
+  width: calc(200px);
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
